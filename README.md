@@ -1,6 +1,7 @@
 Dans ce projet , il a été question de développer un Shell . Il est divisée en deux partie
 La première partie a été achever avec succès . On a ainsi parvenu a implémente tout
-les fonctionnalités demander de A1 à A7.
+les fonctionnalités demander de A1 à A7.\newline
+
 Pour la deuxième partie du travaille demander on n’a pas arrivé au bout mais certain
 fonctionnalité on été traiter tel que : B8 , B9 ,B12 , B16, B18 , B19
 La réalisation de l’historique des commande ainsi que le support de CTRL + R est
