@@ -16,5 +16,3 @@ un petit makefile permet de compiler my_shell car tout le code est inscrit dans 
 fichier comme convenue avec le prof. On peut aussi utiliser la ligne de commande
 suivant :
  gcc my_shell.c -o my_shell -lreadline
-On signale qu’en même que sans l’option -lreadline , une belle erreur de non
-reconnaissance de fichier s’affiche . On a vraiment énormément galéré sur ça.
