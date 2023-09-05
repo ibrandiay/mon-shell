@@ -10,7 +10,7 @@
 #define MAXCOM 2000 
 #define MAXLIST 200 
   
-// gerer l'historique des commande et le prompt custozer 
+// gerer l'historique des commandes et le prompt custozer 
 
 int historique(char* str) 
 { 
@@ -45,7 +45,7 @@ void affichage()
     kill(getpid(), SIGINT);
     exit(1);
 }
-// exection des commande  d'un fils 
+// exection des commandes  d'un fils 
 
 void execArgs(char** parsed) 
 { 
@@ -68,7 +68,7 @@ void execArgs(char** parsed)
     } 
 } 
   
-// execution des tuyau  2 commande seulement 
+// execution des tuyaux  2 commandes seulement 
 
 void execArgsPiped(char** parsed, char** parsedpipe) 
 { 
@@ -125,14 +125,14 @@ void execArgsPiped(char** parsed, char** parsedpipe)
 } 
   
   
-// les commande et leur execution 
+// les commandes et leurs executions 
 
 int commande(char** argv) 
 { 
     int N = 4, i, s = 0; 
     char* L[N];  
     char path[400];
-                          // Mais princal commande sans compter ceux qui sont sur Path comme ls ..
+                          // Mes principaux commande,  sans compter ceux qui sont sur Path (comme ls ..)
     L[0] = "exit"; 
     L[1] = "cd"; 
     L[2] = "pwd"; 
